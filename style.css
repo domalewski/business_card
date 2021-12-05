@@ -1,0 +1,26 @@
+/* @font-face {
+  font-family: 'Roboto', sans-serif;
+} */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.photo {
+  padding: 1em;
+  border-radius: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  filter: sepia(23%);
+}
+div.right-side {
+  border: 1px solid #000;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+div.container {
+  border: 1px solid #000;
+}
